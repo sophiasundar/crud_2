@@ -16,9 +16,7 @@ const StudentList=()=>{
             }
 
         </div>
-       
-       </>
-
+      </>
     )
 }
 

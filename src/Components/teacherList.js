@@ -7,14 +7,14 @@ const TeacherList=()=>{
        <>
        <div className='App'>
 
-        {
+            {
 
-            allTeacher.map((element,index)=>{
-                 
-               return <Teacher {...element} key={index}/>
+                allTeacher.map((element,index)=>{
+                
+                    return <Teacher {...element} key={index}/>
 
-            })
-        }
+                })
+            }
 
        </div>
        </>
